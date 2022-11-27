@@ -99,7 +99,7 @@ class NodeMgmt:
                     self.change_node_parent.left = None
                 self.parent.left = self.change_node
                 self.change_node.right = self.current_node.right
-                self.change_node.left = self.change_node.left??????????
+                self.change_node.left = self.current_node.left
             # case 3-2
             else:
                 self.change_node = self.current_node.right
